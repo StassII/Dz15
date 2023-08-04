@@ -1,0 +1,23 @@
+body{
+    background: greenyellow;
+}
+.container{
+    display: flex;
+    padding: 100px;
+    column-gap: 10px;
+    min-width: 100%;
+    min-height: 300px;
+    background: green;
+    align-items: center;
+    overflow-x: scroll;
+    &_item{
+        width: 300px;
+        min-width: 300px;
+        height: 280px;
+        background: yellow;
+        cursor: pointer;
+    }
+}
+p{
+    
+}
